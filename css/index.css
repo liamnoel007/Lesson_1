@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap'); 
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 body{
@@ -92,19 +95,20 @@ a{
 }
 
 .cards_item{
+    display: flex;
+    flex-direction: column;
     background: #FFFFFF;
     border: 1px solid #E8E8E8;
     border-radius: 5px;
-    gap: 20px;
-    padding: 13px 40px;
+    padding: 20px 54px 21px 46px;
 }
 
 .cards_item span{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .cards_item p{
-    margin-top: 10px;
+    margin-top: 10px;   
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
