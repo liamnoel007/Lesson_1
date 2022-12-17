@@ -12,7 +12,7 @@ body{
 }
 
 a{
-    
+    color: black;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -120,4 +120,5 @@ a{
 .cards_item_header{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
