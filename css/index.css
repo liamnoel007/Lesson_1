@@ -55,6 +55,11 @@ a{
 .header_auth_register{
     color: #D23669;
     border: 1px solid #D23669 !important;
+    transition: all .2s;
+}
+
+.header_auth_register:hover{
+    background: #d236695f;
 }
 
 .header_logo{
