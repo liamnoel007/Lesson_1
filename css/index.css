@@ -52,6 +52,11 @@ a{
     background-color: #D23669;
 }
 
+.header_auth_login:hover{
+    transform: translateX(-20px);
+    transition: all 0.2s;
+}
+
 .header_auth_register{
     color: #D23669;
     border: 1px solid #D23669 !important;
@@ -60,6 +65,7 @@ a{
 
 .header_auth_register:hover{
     background: #d236695f;
+    transform: translateX(20px)
 }
 
 .header_logo{
@@ -106,6 +112,7 @@ a{
     border: 1px solid #E8E8E8;
     border-radius: 5px;
     padding: 20px 54px 21px 46px;
+    transition: all .2s;
 }
 
 .cards_item span{
@@ -122,6 +129,11 @@ a{
 .cards_item h2{
     color:#D23669
 }
+
+.cards_item:hover{
+    transform: rotate(0.5deg);
+}
+
 .cards_item_header{
     display: flex;
     justify-content: space-between;
