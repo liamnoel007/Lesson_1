@@ -17,6 +17,11 @@ a{
     border-radius: 5px;
 }
 
+input{
+    outline: none;
+    border: 1px solid #dfdfdf;
+}
+
 .container{
     width: 600px;
     margin: 0 auto;
@@ -86,6 +91,7 @@ a{
     border: 1px solid transparent;
     color: white;
     background-color: #D23669;
+    border-radius: 5px;
 }
 
 .header_user_card{
