@@ -1,9 +1,53 @@
-.login{
-
+.login {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #000; */
 }
 
-.login_form{
+.login_box {
+    margin-top: 75px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    padding: 30px;
+    width: 396px;
+}
+
+.login_box_title {
+    margin-bottom: 30px;
+}
+
+.login_form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.login_form_input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.login_form_input~.login_form_input {
+    margin-top: 20px;
+}
+
+.login_form_forgot {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #D23669;
+    border: 1px solid transparent;
+}
+
+.login_form_forgot:hover {
+    border-bottom: 1px dashed #D23669;
+}
+
+.login_form .btn_solid {
+    margin-top: 15px;
+    width: 100%;
 }
