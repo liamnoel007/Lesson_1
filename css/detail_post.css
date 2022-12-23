@@ -1,0 +1,10 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.detail_card {
+    margin-top: 30px;
+}

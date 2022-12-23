@@ -137,7 +137,10 @@ input {
 }
 
 .cards_item:hover {
-    transform: rotate(0.5deg);
+    transform-origin: right bottom;
+    transform: rotate(1deg);
+    border: 1px solid #D23669;
+
 }
 
 .cards_item_header {
