@@ -19,7 +19,7 @@ a {
 
 input {
     outline: none;
-    /* border: 1px solid #dfdfdf; */
+    border: 1px solid #dfdfdf;
 }
 
 .container {

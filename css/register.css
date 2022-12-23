@@ -1,0 +1,14 @@
+.login_form_haveaccount {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    font-size: 12px !important;
+
+}
+
+.login_form_forgot {
+    margin: 0 !important;
+}
