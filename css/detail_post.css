@@ -44,10 +44,13 @@
 
 .detail_card_footer {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 .detail_card_user {
+    margin-bottom: 13px;
+    margin-top: 13px;
     margin-left: 15px;
     display: flex;
     align-items: center;
@@ -57,4 +60,21 @@
 .detail_card_user img {
     width: 35px;
     height: 35px;
+}
+
+.detail_card_stats {
+    margin-right: 17px;
+    display: flex;
+    gap: 14px;
+}
+
+.detail_card_stats_like {
+    display: flex;
+    align-items: flex-end;
+}
+
+.detail_card_stats_watch {
+    display: flex;
+    align-items: flex-end;
+
 }
