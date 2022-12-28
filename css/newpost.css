@@ -1,0 +1,31 @@
+.newpost_wrap {
+    margin-top: 48px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    width: 600px;
+    height: 639px;
+    left: 420px;
+    top: 108px;
+}
+
+/* .newpost_file {
+    position: relative;
+    display: inline-block;
+} */
+
+.newpost_file input[type=file] {
+    position: relative;
+    opacity: 0;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.newpost_btn {
+    position: absolute;
+    border-radius: 50%;
+    background-color: grey;
+    width: 75px;
+    height: 75px;
+}
