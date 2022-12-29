@@ -36,7 +36,7 @@ textarea {
 }
 
 .newpost_btn {
-    /* border: 1px solid black; */
+    /* border: 1px solid black;  */
     position: absolute;
     border-radius: 50%;
     background-color: grey;
@@ -61,4 +61,22 @@ textarea {
 .newpost_inputs input, textarea {
     background: #F5F5F5;
     border-radius: 5px;
+}
+
+.newpost_inputs textarea {
+    padding-left: 15px;
+    padding-top: 13px;
+    font-size: 18px;
+    color: #000000;
+    border: none;
+}
+
+.newpost_inputs ::placeholder {
+    padding-left: 15px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.newpost_inputs button {
+    font-size: 18px;
 }
