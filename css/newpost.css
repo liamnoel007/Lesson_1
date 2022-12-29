@@ -58,6 +58,16 @@ h1 {
     height: 75px;
     left: 50%;
     top: 50%;
+    opacity: 0;
+}
+
+.newpost_btn_img {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 50%;
+    top: 50%;
 }
 
 .newpost_inputs {
