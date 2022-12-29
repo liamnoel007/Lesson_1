@@ -2,6 +2,15 @@ textarea {
     resize: none;
 }
 
+h1 {
+    margin-top: 20px;
+}
+
+.newpost_h1 {
+    padding-left: 30px;
+    width: 100%;
+}
+
 .newpost_wrap {
     display: flex;
     flex-direction: column;
@@ -11,20 +20,29 @@ textarea {
     border: 1px solid #E8E8E8;
     border-radius: 5px;
     width: 600px;
-    height: 639px;
+    height: 670px;
     left: 420px;
     top: 108px;
 }
 
 .newpost_file {
-    /* border: 1px solid black; */
-    display: flex;
+    border: 1px solid black;
+    margin-top: 15px;
+    /* display: flex; */
+    flex-direction: column;
     width: 540px;
     height: 165px;
-    left: 450px;
-    top: 171px;
+    position: relative;
     background: #F5F5F5;
     border-radius: 5px;
+    /* align-items: center; */
+}
+
+.newpost_span {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 85%;
 }
 
 .newpost_file input[type=file] {
@@ -36,12 +54,14 @@ textarea {
 }
 
 .newpost_btn {
-    /* border: 1px solid black;  */
+    transform: translate(-50%, -50%);
     position: absolute;
     border-radius: 50%;
     background-color: grey;
     width: 75px;
     height: 75px;
+    left: 50%;
+    top: 50%;
 }
 
 .newpost_inputs {
@@ -79,4 +99,17 @@ textarea {
 
 .newpost_inputs button {
     font-size: 18px;
+    /* margin-bottom: 50px; */
+}
+
+.newpost_inputs_category {
+    position: relative;
+
+}
+
+.newpost_inputs_category_img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
