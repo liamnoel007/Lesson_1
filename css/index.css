@@ -98,7 +98,48 @@ input {
     display: flex;
     gap: 5px;
     cursor: pointer;
+    /* border: 1px solid black; */
+    align-items: center;
+    position: relative;
+
 }
+
+.header_user_profile {
+    display: flex;
+    width: 12px;
+    height: 12px;
+    align-items: center;
+}
+
+.header_user_modale {
+    margin-top: 30px;
+    border: 1px solid #D23669;
+    width: 200px;
+    height: 200px;
+    right: 195px;
+    top: 5px;
+    position: absolute;
+    background-color: white;
+    border-radius: 6px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.header_user_modale ul, li {
+    height: 200px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_user_modale.active {
+    opacity: 1;
+    visibility: visible;
+}
+
 
 .home {
     margin-top: 20px;
